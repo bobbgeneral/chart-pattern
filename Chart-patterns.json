@@ -1,88 +1,35 @@
 {
   "patterns": [
-    {
-      "name": "Double Top",
-      "type": "bearish",
-      "category": "chart",
-      "confirmation": "break below neckline"
-    },
-    {
-      "name": "Double Bottom",
-      "type": "bullish",
-      "category": "chart",
-      "confirmation": "break above neckline"
-    },
-    {
-      "name": "Head and Shoulders",
-      "type": "bearish",
-      "category": "chart",
-      "confirmation": "break of neckline"
-    },
-    {
-      "name": "Inverted Head and Shoulders",
-      "type": "bullish",
-      "category": "chart",
-      "confirmation": "break of neckline"
-    },
-    {
-      "name": "Triple Top",
-      "type": "bearish",
-      "category": "chart",
-      "confirmation": "break support zone"
-    },
-    {
-      "name": "Triple Bottom",
-      "type": "bullish",
-      "category": "chart",
-      "confirmation": "break resistance zone"
-    },
-    {
-      "name": "Bullish Engulfing",
-      "type": "bullish",
-      "category": "candlestick",
-      "confirmation": "green candle fully engulfs previous red candle"
-    },
-    {
-      "name": "Bearish Engulfing",
-      "type": "bearish",
-      "category": "candlestick",
-      "confirmation": "red candle fully engulfs previous green candle"
-    },
-    {
-      "name": "Hammer",
-      "type": "bullish",
-      "category": "candlestick",
-      "confirmation": "lower shadow twice body size"
-    },
-    {
-      "name": "Shooting Star",
-      "type": "bearish",
-      "category": "candlestick",
-      "confirmation": "upper shadow twice body size"
-    },
-    {
-      "name": "Breakout",
-      "type": "bullish",
-      "category": "price_action",
-      "confirmation": "close above resistance"
-    },
-    {
-      "name": "False Breakout",
-      "type": "neutral",
-      "category": "price_action",
-      "confirmation": "price re-enters range after breakout"
-    },
-    {
-      "name": "Rebound",
-      "type": "bullish",
-      "category": "price_action",
-      "confirmation": "bounce from support"
-    },
-    {
-      "name": "Reversal",
-      "type": "reversal",
-      "category": "price_action",
-      "confirmation": "trend changes direction"
-    }
+    { "name": "Double Top", "type": "reversal", "signal": "bearish" },
+    { "name": "Double Bottom", "type": "reversal", "signal": "bullish" },
+    { "name": "Head and Shoulders", "type": "reversal", "signal": "bearish" },
+    { "name": "Inverse Head and Shoulders", "type": "reversal", "signal": "bullish" },
+    { "name": "Triple Top", "type": "reversal", "signal": "bearish" },
+    { "name": "Triple Bottom", "type": "reversal", "signal": "bullish" },
+    { "name": "Rounding Bottom", "type": "reversal", "signal": "bullish" },
+    { "name": "Rounding Top", "type": "reversal", "signal": "bearish" },
+    { "name": "Bullish Engulfing", "type": "candlestick", "signal": "bullish" },
+    { "name": "Bearish Engulfing", "type": "candlestick", "signal": "bearish" },
+    { "name": "Doji", "type": "candlestick", "signal": "neutral" },
+    { "name": "Hammer", "type": "candlestick", "signal": "bullish" },
+    { "name": "Shooting Star", "type": "candlestick", "signal": "bearish" },
+    { "name": "Morning Star", "type": "candlestick", "signal": "bullish" },
+    { "name": "Evening Star", "type": "candlestick", "signal": "bearish" },
+    { "name": "Breakout", "type": "momentum", "signal": "bullish or bearish" },
+    { "name": "False Breakout", "type": "trap", "signal": "reversal" },
+    { "name": "Rebounce Support", "type": "support-resistance", "signal": "bullish" },
+    { "name": "Rebounce Resistance", "type": "support-resistance", "signal": "bearish" },
+    { "name": "Continuation Flag", "type": "continuation", "signal": "bullish or bearish" },
+    { "name": "Pennant", "type": "continuation", "signal": "bullish or bearish" },
+    { "name": "Symmetrical Triangle", "type": "consolidation", "signal": "bullish or bearish" },
+    { "name": "Ascending Triangle", "type": "bullish pattern", "signal": "bullish" },
+    { "name": "Descending Triangle", "type": "bearish pattern", "signal": "bearish" },
+    { "name": "Cup and Handle", "type": "bullish pattern", "signal": "bullish" },
+    { "name": "Support", "type": "snr", "signal": "bullish" },
+    { "name": "Resistance", "type": "snr", "signal": "bearish" },
+    { "name": "Support Becomes Resistance (SBR)", "type": "sbr", "signal": "bearish" },
+    { "name": "Resistance Becomes Support (RBS)", "type": "rbs", "signal": "bullish" },
+    { "name": "Bullish Trend", "type": "trend", "signal": "bullish" },
+    { "name": "Bearish Trend", "type": "trend", "signal": "bearish" }
   ]
 }
