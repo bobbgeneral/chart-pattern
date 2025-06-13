@@ -1,0 +1,88 @@
+{
+  "patterns": [
+    {
+      "name": "Double Top",
+      "type": "bearish",
+      "category": "chart",
+      "confirmation": "break below neckline"
+    },
+    {
+      "name": "Double Bottom",
+      "type": "bullish",
+      "category": "chart",
+      "confirmation": "break above neckline"
+    },
+    {
+      "name": "Head and Shoulders",
+      "type": "bearish",
+      "category": "chart",
+      "confirmation": "break of neckline"
+    },
+    {
+      "name": "Inverted Head and Shoulders",
+      "type": "bullish",
+      "category": "chart",
+      "confirmation": "break of neckline"
+    },
+    {
+      "name": "Triple Top",
+      "type": "bearish",
+      "category": "chart",
+      "confirmation": "break support zone"
+    },
+    {
+      "name": "Triple Bottom",
+      "type": "bullish",
+      "category": "chart",
+      "confirmation": "break resistance zone"
+    },
+    {
+      "name": "Bullish Engulfing",
+      "type": "bullish",
+      "category": "candlestick",
+      "confirmation": "green candle fully engulfs previous red candle"
+    },
+    {
+      "name": "Bearish Engulfing",
+      "type": "bearish",
+      "category": "candlestick",
+      "confirmation": "red candle fully engulfs previous green candle"
+    },
+    {
+      "name": "Hammer",
+      "type": "bullish",
+      "category": "candlestick",
+      "confirmation": "lower shadow twice body size"
+    },
+    {
+      "name": "Shooting Star",
+      "type": "bearish",
+      "category": "candlestick",
+      "confirmation": "upper shadow twice body size"
+    },
+    {
+      "name": "Breakout",
+      "type": "bullish",
+      "category": "price_action",
+      "confirmation": "close above resistance"
+    },
+    {
+      "name": "False Breakout",
+      "type": "neutral",
+      "category": "price_action",
+      "confirmation": "price re-enters range after breakout"
+    },
+    {
+      "name": "Rebound",
+      "type": "bullish",
+      "category": "price_action",
+      "confirmation": "bounce from support"
+    },
+    {
+      "name": "Reversal",
+      "type": "reversal",
+      "category": "price_action",
+      "confirmation": "trend changes direction"
+    }
+  ]
+}
